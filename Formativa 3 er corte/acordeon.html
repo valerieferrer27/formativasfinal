@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Sistema Acordeón</title>
+        <meta title="Sistema Acordeón">
+        <meta charset="utf-8">
+        <link rel="icon" href="img/logo.png">
+
+        <!-- Meta que permite la correcta visualización en Responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Librería PrefixFree -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+        <!-- Llamado a librería de Íconos: FontAwesome Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <!-- Llamado a Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <!-- Cargar CSS propio -->
+        <link rel="stylesheet" href="css/estilo.css">
+
+
+        
+    </head>
+
+    <body class="fondo-dark">
+
+        <header>
+            
+        </header>
+
+        <main>
+            <!-- Sistema Acordeón -->
+            <section id="acordeon">
+                <article>
+                    <div id="caja-acordeon">
+                        <div class="fila-acordeon" id="fila-01">
+                            <a href="#" id="abre-fila-01" class="acord-cerrado">
+                                <span class="caja-iconos">
+                                    <span class="abierto">-</span>
+                                    <span class="cerrado">+</span>
+                                </span>
+                                <span class="nombre-pregunta">Pregunta Frecuente 1</span>
+                            </a>
+                            <figure id="conte-fila-01">
+                                <p><img src="img/slider-01.jpg"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in magna ac lorem varius dignissim. Suspendisse feugiat, enim eget aliquet facilisis, arcu ligula ornare sapien, vitae bibendum tellus tellus non est. Sed in ultricies lorem, et mattis eros. Praesent vestibulum dignissim urna, in ultrices arcu blandit ac.
+                                    <br><br>
+                                Aliquam pharetra eros nec magna viverra, in vulputate neque malesuada. Nullam ullamcorper, neque tincidunt pharetra congue, metus felis egestas tortor, quis dictum tellus quam lacinia diam. Morbi at quam quam. Mauris et lacus ex. Morbi eu purus eget lectus dictum tristique. Cras sed cursus leo. Sed accumsan, nisl eu cursus feugiat, elit libero sollicitudin nibh, a hendrerit tortor ante at magna. Nunc eros tellus, viverra ut orci eu, lacinia tempor orci.
+                                    <br><br>
+                                Aenean ac fermentum eros. Nulla bibendum enim a ipsum rutrum rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse non nisl molestie, scelerisque mi in, ornare mauris.</p>
+                            </figure>
+                        </div>
+
+                        <div class="fila-acordeon" id="fila-02">
+                            <a href="#" id="abre-fila-02" class="acord-cerrado">
+                                <span class="caja-iconos">
+                                    <span class="abierto">-</span>
+                                    <span class="cerrado">+</span>
+                                </span>
+                                <span class="nombre-pregunta">Pregunta Frecuente 2</span>
+                            </a>
+                            
+                            <figure id="conte-fila-02">
+                                <p><img src="img/slider-01.jpg"> Donec pulvinar molestie est, at ultrices dolor pellentesque vel. Sed ac quam sed lacus aliquam vulputate pretium nec tellus. Suspendisse vitae justo quis mauris imperdiet fringilla. Mauris scelerisque feugiat tristique. Vivamus id euismod elit. Etiam posuere vestibulum arcu et fermentum. Duis ut commodo nulla.</p>
+                            </figure>
+                        </div>
+
+                        <div class="fila-acordeon" id="fila-03">
+                            <a href="#" id="abre-fila-03" class="acord-cerrado">
+                                <span class="caja-iconos">
+                                    <span class="abierto">-</span>
+                                    <span class="cerrado">+</span>
+                                </span>
+                                <span class="nombre-pregunta">Pregunta Frecuente 3</span>
+                            </a>
+                            <figure id="conte-fila-03">
+                                <p><img src="img/slider-01.jpg"> Aenean vitae ante non lectus iaculis maximus. Duis ligula magna, tristique eget aliquet ac, mattis vel ex. Fusce gravida aliquam interdum. Mauris in placerat elit.
+                                    <br><br>    
+                                Nullam nec velit quam. Fusce quis laoreet sapien. Phasellus nisl nulla, euismod quis ultricies sed, semper eget metus. Pellentesque condimentum nulla velit, vel fermentum augue condimentum vel. Aliquam a libero a nisi sagittis finibus. Nulla sapien ligula, interdum in egestas ac, tempor at lorem. Duis consectetur suscipit ultrices. Aliquam suscipit at massa vitae posuere. Duis quis dictum ante, ut hendrerit est.
+                                    <br><br>
+                                Aliquam erat volutpat. Quisque iaculis enim in quam ullamcorper varius. Mauris convallis, nulla ac scelerisque vestibulum, tortor felis mattis urna, at facilisis nunc nulla sit amet nunc.</p>
+                            </figure>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            
+        </footer>
+        
+
+
+        <!-- Zona de Scripts -->
+
+        <!-- Carga de jQuery -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+        <!-- Cargar librería jQuery Easing -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- Cargar librería FancyApps.com -->
+        <!--
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        -->
+
+        <!-- Cargar Librería Slick Slider -->
+        <!--
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        -->
+
+        <!-- JS propio -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
